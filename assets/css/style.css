@@ -108,10 +108,10 @@ img {
 }
 
 .navbar .nav-link {
-    position: relative !important;
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
+    --bs-nav-link-padding-y: 0.35rem;
 }
 
 .navbar .nav-link:hover {
