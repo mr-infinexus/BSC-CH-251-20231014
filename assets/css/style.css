@@ -16,21 +16,21 @@ body {
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
     line-height: 1.4;
-    font-size: 16px;
+    font-size: 1rem;
     /* Default font size for mobile */
 }
 
 /* Larger screens */
 @media (min-width: 992px) {
     body {
-        font-size: 18px;
+        font-size: 1.12rem;
     }
 }
 
 /* Smaller tablets and mobiles */
 @media (max-width: 720px) {
     body {
-        font-size: 14px;
+        font-size: 0.87rem;
         /* Reduce font size for smaller screens */
     }
 }
