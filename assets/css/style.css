@@ -108,6 +108,7 @@ img {
 }
 
 .navbar .nav-link {
+    position: relative;
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
