@@ -105,13 +105,15 @@ img {
 /* NAVBAR */
 .navbar {
     background-color: var(--color-base);
+    --bs-navbar-brand-padding-y: 0rem !important;
 }
 
 .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    --bs-nav-link-padding-y: 0.35rem;
+    font-size: medium;
+    /* --bs-nav-link-padding-y: 0.35rem; */
 }
 
 .navbar .nav-link:hover {
