@@ -45,10 +45,6 @@ h6 {
     font-weight: 800;
 }
 
-p {
-    font-size: large;
-}
-
 a {
     text-decoration: none;
     color: var(--color-body);
@@ -131,7 +127,7 @@ img {
         background-position: center;
         --bs-navbar-brand-padding-y: 0rem;
     }
-    
+
     .navbar .nav-link {
         --bs-nav-link-padding-y: 0.33rem;
     }
