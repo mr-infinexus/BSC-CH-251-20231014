@@ -16,21 +16,21 @@ body {
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
     line-height: 1.4;
-    font-size: 1rem;
+    font-size: 16px;
     /* Default font size for mobile */
 }
 
 /* Larger screens */
 @media (min-width: 992px) {
     body {
-        font-size: 1.12rem;
+        font-size: 18px;
     }
 }
 
 /* Smaller tablets and mobiles */
 @media (max-width: 720px) {
     body {
-        font-size: 0.87rem;
+        font-size: 14px;
         /* Reduce font size for smaller screens */
     }
 }
@@ -105,7 +105,7 @@ img {
 /* NAVBAR */
 .navbar {
     background-color: var(--color-base);
-    --bs-navbar-brand-padding-y: 0rem !important;
+    /* --bs-navbar-brand-padding-y: 0rem !important; */
 }
 
 .navbar .nav-link {
