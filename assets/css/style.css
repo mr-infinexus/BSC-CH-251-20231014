@@ -113,7 +113,7 @@ img {
     text-transform: uppercase;
     color: #fff;
     font-size: medium;
-    /* --bs-nav-link-padding-y: 0.35rem; */
+    --bs-nav-link-padding-y: 0.4rem;
 }
 
 .navbar .nav-link:hover {
